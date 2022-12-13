@@ -12,3 +12,9 @@ git init
 git config --local user.name "Carlos Naranjo"
 git config --local user.email "carlos.naranjo@opens.cl"
 ```
+
+Lista de commits:
+
+```sh
+git log
+```
