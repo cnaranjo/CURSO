@@ -1,3 +1,5 @@
+# Clase 2
+
 Configurar GIT Global para todos los repos (en cualquier momento antes de hacer el primer commit):
 
 ```sh
@@ -17,6 +19,7 @@ Crear commit de cambios en stage:
 
 ```sh
 git commit -m 'Comentario'
+git commit --amend # agrega nuevas modificaciones en stage al ultimo commit ya ingresado
 ```
 
 Lista de commits:

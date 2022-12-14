@@ -1,4 +1,6 @@
-# MARKDOWN
+# Clase 1
+
+## MARKDOWN
 Lenguaje de marcado
 
 **negrita**
