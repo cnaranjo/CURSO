@@ -26,4 +26,5 @@ Agregar archivos al area temporal de confirmación "stage":
 
 ```sh
 git add . # el punto es un comodin que indica todos los archivos
+git add README.md
 ```
