@@ -23,9 +23,10 @@ Lista de commits:
 
 ```sh
 git log
+git log --oneline
 ```
 
-Compara y muestra diferencias entre el repo y los archivos locales modificados sin commit:
+Compara y muestra diferencias entre el repo y los archivos locales modificados sin agregar al stage:
 
 ```sh
 git diff
