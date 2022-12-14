@@ -34,3 +34,16 @@ Compara y muestra diferencias entre el repo y los archivos locales modificados s
 ```sh
 git diff
 ```
+
+Para unir un repo remoto creado con el local:
+
+```sh
+git remote add origin https://github.com/cnaranjo/CURSO.git
+git push -u origin main # origin es el alias que se puso en el comando anterior, en caso de clon por defecto tambien es origin pero se puede ver con el comando de abajo, main seria la rama local, la primera vez este comando pedira el password para conectarse al repo
+```
+
+Muestra alias del repo remoto:
+
+```sh
+git remote -v
+```
