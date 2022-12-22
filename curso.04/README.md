@@ -13,3 +13,9 @@ git switch rama1 # cambio de rama
 ```sh
 git merge rama1
 ```
+
+## para eliminar ramas
+
+```sh
+git branch -d rama1
+```
