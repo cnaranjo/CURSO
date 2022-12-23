@@ -19,3 +19,9 @@ git merge rama1
 ```sh
 git branch -d rama1
 ```
+
+## para clonar repo
+
+```sh
+git clone [ruta git]
+```
