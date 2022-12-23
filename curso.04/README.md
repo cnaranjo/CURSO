@@ -23,5 +23,23 @@ git branch -d rama1
 ## para clonar repo
 
 ```sh
-git clone [ruta git]
+git clone [url repo git]
+```
+
+## muestra el log con un mini grafico de la union de ramas
+
+```sh
+git log --oneline --graph --all --decorate
+```
+
+## subir rama
+
+```sh
+git push -u origin rama1
+```
+
+## traer metadata del repo remoto
+
+```sh
+git fetch --all
 ```
