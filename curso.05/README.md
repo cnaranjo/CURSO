@@ -30,7 +30,15 @@ git switch -c rama2
 ```sh
 git stash # crea el stach
 git stash list # muestra la lista de stach
-git stash pop # recupera el ultimo stach
+git stash pop # recupera el ultimo stach y lo borra si no hay conflicto
 git stash apply stash@{0} # si no se le pone el numero, recupera el ultimo, si no, recupera el que se le indica por el numero sacado con list
 git stash drop stash@{0} # si no se le pone el numero, borra el ultimo, si no, borra el que se le indica por el numero sacado con list
+git stash clear # borra toda la pila de stash
+git stash show -p stash@{0} # si no se le pone el numero, muestra contenido del ultimo, si no, muestra el que se le indica por el numero sacado con list
+```
+
+## para buscar ayuda de un comando
+
+```sh
+git comando --help
 ```
