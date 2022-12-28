@@ -1,11 +1,5 @@
 # Clase 3
 
-Resetear git add's
-
-```sh
-git reset
-```
-
 Archivo *.gitignore* permite evitar que se suban archivos al hacer push o los borra en el siguiente push
 
 ```sh
