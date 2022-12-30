@@ -57,3 +57,6 @@ recupera archivo sin modificaciones del repo local
 ```sh
 git restore (archivo) 
 ```
+
+### consultas a
+mlapeducacionit@gmail.com
